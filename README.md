@@ -1,5 +1,5 @@
 # BLRQ-BV
-（1）For English, we adopt the bert-base-uncased model. For Chinese, we use the bert-base-chinese model. 
+（1）For English, we adopt the bert-base-uncased model. For Chinese, we use the bert-base-chinese model.  As noted in Section III-C, two pre-trained BERT models (bert-base-uncased for English, bert-base-chinese for Chinese) must be downloaded separately (several GB) before running the code; download links are provided in the article.
 （2）Meanwhile, different tokenizers are employed for the BiLSTM model in Chinese and English scenarios respectively.
 （3）"unified config.py" is the configuration file, and readers need to modify it according to the input directory of the actual dataset. Meanwhile, readers need to specify the output directories of the process file and the result file according to the actual path.
 （4）After completing the above configuration, you can directly execute the main.py file to run the BLRQ-BV model.
